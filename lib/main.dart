@@ -13,11 +13,11 @@ class MainApp extends StatelessWidget
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "MiniZomato",
+      title: "MiniSwiggy",
       theme: ThemeData(
         primaryColor: Colors.blueAccent,
       ),
-      home: MainScreen(),
+      home: BackScreen(),
     );
   }
   
